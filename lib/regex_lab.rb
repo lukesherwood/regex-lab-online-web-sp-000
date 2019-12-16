@@ -15,6 +15,6 @@ text.match?(/\b[A-Z]+[.,\!\?]\b/)
 end
 
 def valid_phone_number?(phone)
-phone.match?(/\(\d\d\d\)\d\d\d"-"\d\d\d\d/|\d\d\d.\d\d\d.\d\d\d\d | \(\d\d\d\)\d\d\d\d\d\d\d)
+phone.match?
 end
 #2438894546", "(718)891-1313", "234 435 9978", "(800)4261134
